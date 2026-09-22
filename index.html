@@ -14,8 +14,22 @@
     <header>
         <nav class="navbar container">
             <a href="#hero" class="logo">
-                <span class="logo-symbol">Rx</span>
-                <span class="logo-text">R. K. Pandey</span>
+                <div class="logo-brand">
+                    <!-- SunCure Vector Logo (Renders reliably without external image dependencies) -->
+                    <svg class="brand-logo-svg" viewBox="0 0 48 48" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="24" cy="24" r="22" fill="#1b4d3e" />
+                        <!-- Sun burst motif -->
+                        <path d="M24 8V12M24 36V40M8 24H12M36 24H40M12.7 12.7L15.5 15.5M32.5 32.5L35.3 35.3M12.7 35.3L15.5 32.5M32.5 15.5L35.3 12.7" stroke="#b87333" stroke-width="2.5" stroke-linecap="round"/>
+                        <!-- Rx / Healing Leaf Symbol -->
+                        <path d="M18 16H25C27.2 16 29 17.8 29 20C29 22.2 27.2 24 25 24H18V16Z" fill="#ffffff"/>
+                        <path d="M21 24L30 33" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M25 27L30 22" stroke="#b87333" stroke-width="2.5" stroke-linecap="round"/>
+                    </svg>
+                    <div class="brand-details">
+                        <span class="logo-text">SUNCURE</span>
+                        <span class="logo-subtext">Lifescience Pvt. Ltd.</span>
+                    </div>
+                </div>
             </a>
             <ul class="nav-links">
                 <li><a href="#about">Summary</a></li>
@@ -30,11 +44,11 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero">
-        <div class="container">
+        <div class="container hero-grid">
             <div class="hero-content" id="about">
                 <div class="rx-mark">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 3h6a5 5 0 0 1 0 10H9v8"/><path d="M9 11l8 10"/></svg>
-                    Pharmaceutical leadership &amp; healthcare enterprise
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><path d="M6 3h6a5 5 0 0 1 0 10H9v8"/><path d="M9 11l8 10"/></svg>
+                    Pharmaceutical Leadership &amp; Healthcare Enterprise
                 </div>
 
                 <h1 class="executive-name">
@@ -42,21 +56,26 @@
                     <span class="name-last">Pandey</span>
                 </h1>
 
-                <p class="tagline">Chief Executive Officer &amp; Owner — Suncure Lifescience</p>
+                <p class="tagline">Chief Executive Officer &amp; Owner — Suncure Lifescience Pvt. Ltd.</p>
+
+                <blockquote class="hero-quote">
+                    “Pioneering accessible, hospital-grade critical therapeutics and advancing institutional healthcare reliability across India.”
+                </blockquote>
+
                 <p class="subtext">
                     Formerly leading regional operations at <strong>Ranbaxy Laboratories</strong> and top multinational pharmaceutical corporations. Building critical-care therapeutics, clinical compliance systems, and institutional drug-delivery networks across India.
                 </p>
+                
                 <div class="hero-buttons">
-                    <a href="#divisions" class="btn primary-btn">View the formulary</a>
-                    <a href="#contact" class="btn secondary-btn">Executive contact</a>
+                    <a href="#divisions" class="btn primary-btn">View the Formulary</a>
+                    <a href="https://www.suncurelife.com" target="_blank" rel="noopener" class="btn secondary-btn">Official Web Portal ↗</a>
+                    <a href="#contact" class="btn secondary-btn">Executive Contact</a>
                 </div>
             </div>
 
             <div class="hero-diagram" aria-hidden="true">
                 <svg viewBox="0 0 400 400">
-                    <!-- clinical trend trace -->
                     <path class="molecule-trace molecule-draw" d="M20 320 C 80 300, 110 250, 150 260 S 220 200, 260 180 S 330 90, 380 70" />
-                    <!-- molecular skeleton -->
                     <g class="molecule-bond">
                         <line x1="200" y1="150" x2="140" y2="190"/>
                         <line x1="200" y1="150" x2="260" y2="190"/>
@@ -86,64 +105,64 @@
         </div>
     </section>
 
-    <!-- Formulary Snapshot -->
+    <!-- Key Metrics Section -->
     <section id="metrics" class="metrics-section container">
         <div class="spec-sheet">
             <div class="spec-row">
-                <span class="spec-label">Years in pharmaceutical leadership</span>
-                <span class="spec-value">15+</span>
+                <span class="spec-label">Years in Pharmaceutical Leadership</span>
+                <span class="spec-value">15+ Years</span>
             </div>
             <div class="spec-row">
-                <span class="spec-label">Specialized therapeutic divisions</span>
-                <span class="spec-value">06</span>
+                <span class="spec-label">Specialized Therapeutic Divisions</span>
+                <span class="spec-value">06 Divisions</span>
             </div>
             <div class="spec-row">
-                <span class="spec-label">Institutional hospital networks served</span>
-                <span class="spec-value">100+</span>
+                <span class="spec-label">Institutional Hospital Networks Served</span>
+                <span class="spec-value">100+ Hospitals</span>
+            </div>
+            <div class="spec-row">
+                <span class="spec-label">Official Corporate Portal</span>
+                <span class="spec-value"><a href="https://www.suncurelife.com" target="_blank" class="link-brand">suncurelife.com</a></span>
             </div>
         </div>
     </section>
 
-    <!-- Career Timeline -->
+    <!-- Career Timeline Section -->
     <section id="timeline" class="timeline-section container">
-        <span class="eyebrow">Career trajectory</span>
-        <h2 class="section-title">Executive leadership path</h2>
+        <span class="eyebrow">Career Trajectory</span>
+        <h2 class="section-title">Executive Leadership Path</h2>
         <div class="timeline">
-
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <span class="timeline-date">Current role</span>
+                    <span class="timeline-date">Current Role</span>
                     <h3>CEO &amp; Owner — Suncure Lifescience Pvt. Ltd.</h3>
-                    <p>Spearheading strategic execution across six therapeutic divisions — Oncocure, Criticure, Gastrocure, Cardicure, Anesthesia, and Pharmacure — headquartered in Surat, Gujarat. Overseeing quality assurance, market penetration, and critical lifesaving drug pipelines across India.</p>
+                    <p>Spearheading strategic execution across six therapeutic divisions — Oncocure, Criticure, Gastrocure, Cardicure, Anesthesia, and Pharmacure — headquartered in Surat, Gujarat. Overseeing quality assurance, market penetration, regulatory governance, and critical lifesaving drug pipelines across India.</p>
                 </div>
             </div>
-
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <span class="timeline-date">MNC tenure</span>
+                    <span class="timeline-date">MNC Tenure</span>
                     <h3>Senior Leadership — Global Pharmaceutical MNCs</h3>
                     <p>Directed commercial strategies, regional distribution hubs, and regulatory compliance protocols for multinational pharmaceutical conglomerates.</p>
                 </div>
             </div>
-
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <span class="timeline-date">Foundational career</span>
+                    <span class="timeline-date">Foundational Career</span>
                     <h3>Ranbaxy Laboratories Pvt. Ltd.</h3>
                     <p>Managed institutional healthcare partnerships, regional sales operations, and supply chain expansion within India's landmark pharmaceutical organization.</p>
                 </div>
             </div>
-
         </div>
     </section>
 
-    <!-- Therapeutic Divisions (Interactive) -->
+    <!-- Therapeutic Divisions Section -->
     <section id="divisions" class="divisions-section container">
-        <span class="eyebrow">Product portfolio</span>
-        <h2 class="section-title">The Suncure formulary</h2>
+        <span class="eyebrow">Product Portfolio</span>
+        <h2 class="section-title">The Suncure Formulary</h2>
 
         <div class="tabs" role="tablist">
             <button class="tab-btn active" onclick="openTab(event, 'criticure')">Criticure</button>
@@ -155,91 +174,116 @@
         </div>
 
         <div id="criticure" class="tab-content active-content">
-            <div class="division-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2-7 4 14 2-7h6"/></svg></div>
-            <div>
-                <span class="division-code">RX-01 · CRITICAL CARE</span>
-                <h3>Criticure Division</h3>
-                <p>High-potency emergency care formulations, intensive care unit (ICU) antibiotics, and rapid-response resuscitation therapeutics.</p>
+            <div class="division-card-inner">
+                <div class="division-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" width="32" height="32"><path d="M3 12h4l2-7 4 14 2-7h6"/></svg>
+                </div>
+                <div>
+                    <span class="division-code">RX-01 · CRITICAL CARE</span>
+                    <h3>Criticure Division</h3>
+                    <p>High-potency emergency care formulations, intensive care unit (ICU) antibiotics, and rapid-response resuscitation therapeutics.</p>
+                </div>
             </div>
         </div>
 
         <div id="oncocure" class="tab-content">
-            <div class="division-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><circle cx="5" cy="7" r="1.6"/><circle cx="19" cy="7" r="1.6"/><circle cx="5" cy="17" r="1.6"/><circle cx="19" cy="17" r="1.6"/><path d="M9.5 10.2 6.2 8M14.5 10.2 17.8 8M9.5 13.8 6.2 16M14.5 13.8 17.8 16"/></svg></div>
-            <div>
-                <span class="division-code">RX-02 · ONCOLOGY</span>
-                <h3>Oncocure Division</h3>
-                <p>Targeted oncology medications, chemotherapeutic adjuvant solutions, and palliative care pharmaceuticals.</p>
+            <div class="division-card-inner">
+                <div class="division-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" width="32" height="32"><circle cx="12" cy="12" r="3"/><circle cx="5" cy="7" r="1.6"/><circle cx="19" cy="7" r="1.6"/><circle cx="5" cy="17" r="1.6"/><circle cx="19" cy="17" r="1.6"/><path d="M9.5 10.2 6.2 8M14.5 10.2 17.8 8M9.5 13.8 6.2 16M14.5 13.8 17.8 16"/></svg>
+                </div>
+                <div>
+                    <span class="division-code">RX-02 · ONCOLOGY</span>
+                    <h3>Oncocure Division</h3>
+                    <p>Targeted oncology medications, chemotherapeutic adjuvant solutions, and palliative care pharmaceuticals.</p>
+                </div>
             </div>
         </div>
 
         <div id="cardicure" class="tab-content">
-            <div class="division-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2 6 4-14 2 8h6"/><path d="M12 5.5a3 3 0 0 1 5.3-1.9"/></svg></div>
-            <div>
-                <span class="division-code">RX-03 · CARDIOLOGY</span>
-                <h3>Cardicure Division</h3>
-                <p>Advanced cardiovascular management, anti-hypertensive formulations, and emergency coronary disease management lines.</p>
+            <div class="division-card-inner">
+                <div class="division-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" width="32" height="32"><path d="M3 12h4l2 6 4-14 2 8h6"/><path d="M12 5.5a3 3 0 0 1 5.3-1.9"/></svg>
+                </div>
+                <div>
+                    <span class="division-code">RX-03 · CARDIOLOGY</span>
+                    <h3>Cardicure Division</h3>
+                    <p>Advanced cardiovascular management, anti-hypertensive formulations, and emergency coronary disease management lines.</p>
+                </div>
             </div>
         </div>
 
         <div id="gastrocure" class="tab-content">
-            <div class="division-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3c-2 3-3 6-3 9a7 7 0 0 0 14 0c0-2-.7-3.6-2-5"/><path d="M8 3c1.5 1 2 2.5 2 4"/></svg></div>
-            <div>
-                <span class="division-code">RX-04 · GASTROENTEROLOGY</span>
-                <h3>Gastrocure Division</h3>
-                <p>Gastroenterology treatments, advanced proton-pump inhibitors, and acute gastrointestinal motility therapies.</p>
+            <div class="division-card-inner">
+                <div class="division-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" width="32" height="32"><path d="M8 3c-2 3-3 6-3 9a7 7 0 0 0 14 0c0-2-.7-3.6-2-5"/><path d="M8 3c1.5 1 2 2.5 2 4"/></svg>
+                </div>
+                <div>
+                    <span class="division-code">RX-04 · GASTROENTEROLOGY</span>
+                    <h3>Gastrocure Division</h3>
+                    <p>Gastroenterology treatments, advanced proton-pump inhibitors, and acute gastrointestinal motility therapies.</p>
+                </div>
             </div>
         </div>
 
         <div id="anesthesia" class="tab-content">
-            <div class="division-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14c0-4 3-9 8-9s8 5 8 9"/><path d="M4 14v3a2 2 0 0 0 2 2h1v-5H4Z"/><path d="M20 14v3a2 2 0 0 1-2 2h-1v-5h3Z"/></svg></div>
-            <div>
-                <span class="division-code">RX-05 · ANESTHESIOLOGY</span>
-                <h3>Anesthesia Division</h3>
-                <p>Clinical-grade general and local anesthetics, neuromuscular blocking agents, and perioperative care formulations.</p>
+            <div class="division-card-inner">
+                <div class="division-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" width="32" height="32"><path d="M4 14c0-4 3-9 8-9s8 5 8 9"/><path d="M4 14v3a2 2 0 0 0 2 2h1v-5H4Z"/><path d="M20 14v3a2 2 0 0 1-2 2h-1v-5h3Z"/></svg>
+                </div>
+                <div>
+                    <span class="division-code">RX-05 · ANESTHESIOLOGY</span>
+                    <h3>Anesthesia Division</h3>
+                    <p>Clinical-grade general and local anesthetics, neuromuscular blocking agents, and perioperative care formulations.</p>
+                </div>
             </div>
         </div>
 
         <div id="pharmacure" class="tab-content">
-            <div class="division-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 10h16M10 4v16"/></svg></div>
-            <div>
-                <span class="division-code">RX-06 · GENERAL THERAPEUTICS</span>
-                <h3>Pharmacure Division</h3>
-                <p>Suncure's newest division, spanning around 40 formulations across antibiotics, gastrointestinal care, orthopedic and pain management, respiratory and anti-allergic treatments, and vitamin therapy.</p>
+            <div class="division-card-inner">
+                <div class="division-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" width="32" height="32"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 10h16M10 4v16"/></svg>
+                </div>
+                <div>
+                    <span class="division-code">RX-06 · GENERAL THERAPEUTICS</span>
+                    <h3>Pharmacure Division</h3>
+                    <p>Suncure's newest division, spanning around 40 formulations across antibiotics, gastrointestinal care, orthopedic and pain management, respiratory and anti-allergic treatments, and vitamin therapy.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Key Products -->
+    <!-- Key Products Section -->
     <section id="products" class="products-section container">
-        <span class="eyebrow">Flagship formulations</span>
-        <h2 class="section-title">Key products</h2>
+        <span class="eyebrow">Flagship Formulations</span>
+        <h2 class="section-title">Key Products</h2>
         <div class="product-grid">
             <div class="product-card">
-                <span class="division-code">ANTIBIOTIC</span>
+                <span class="division-code">CRITICURE · ANTIBIOTIC</span>
                 <h3>Cefzoxin 1.5</h3>
                 <p>A cephalosporin-class injectable used in the Criticure line for serious bacterial infections.</p>
             </div>
             <div class="product-card">
-                <span class="division-code">ANTIBIOTIC</span>
+                <span class="division-code">CRITICURE · ANTIBIOTIC</span>
                 <h3>Africin 500</h3>
                 <p>A broad-spectrum antibiotic formulation supporting institutional and hospital-network care.</p>
             </div>
             <div class="product-card">
-                <span class="division-code">ANTIBIOTIC</span>
+                <span class="division-code">CRITICURE · ANTIBIOTIC</span>
                 <h3>Bactodac 2.5</h3>
                 <p>A critical-care antibacterial formulation built for rapid-response clinical settings.</p>
             </div>
         </div>
     </section>
 
-    <!-- Quality commitment -->
+    <!-- Quality Commitment Banner -->
     <section class="quality-section">
         <div class="container">
             <h2>Every formulation is built on a foundation of quality, compliance, and clinical rigor.</h2>
             <ul class="quality-list">
-                <li><span class="tick">✓</span> GMP-aligned manufacturing and batch-level quality assurance</li>
-                <li><span class="tick">✓</span> Institutional and hospital-network distribution standards</li>
-                <li><span class="tick">✓</span> Regulatory compliance across India's pharmaceutical framework</li>
+                <li><span class="tick">✓</span> WHO-GMP certified manufacturing and batch-level quality assurance</li>
+                <li><span class="tick">✓</span> CDSCO compliant regulatory standards across India's pharmaceutical framework</li>
+                <li><span class="tick">✓</span> ISO 9001:2015 accredited quality control systems across operations</li>
+                <li><span class="tick">✓</span> Institutional and hospital-network cold-chain distribution standards</li>
                 <li><span class="tick">✓</span> Continuous investment in critical-care and specialty therapeutics</li>
             </ul>
         </div>
@@ -247,8 +291,8 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact container">
-        <span class="eyebrow">Get in touch</span>
-        <h2 class="section-title">Executive contact</h2>
+        <span class="eyebrow">Get in Touch</span>
+        <h2 class="section-title">Executive Contact</h2>
 
         <div class="pad">
             <div class="pad-header">
@@ -257,27 +301,39 @@
             </div>
             <form class="contact-form" id="contactForm">
                 <div>
-                    <label class="field-label" for="name">Full name / designation</label>
-                    <input type="text" id="name" required>
+                    <label class="field-label" for="inquiry-type">Inquiry Type</label>
+                    <select id="inquiry-type" class="field-select" required>
+                        <option value="Institutional Partnership">Institutional Partnership / Hospital Network</option>
+                        <option value="Distribution Inquiry">Distribution &amp; Wholesale Inquiry</option>
+                        <option value="Strategic Collaboration">Strategic Corporate Collaboration</option>
+                        <option value="General Executive Inquiry">General Executive Inquiry</option>
+                    </select>
                 </div>
                 <div>
-                    <label class="field-label" for="email">Corporate / business email</label>
-                    <input type="email" id="email" required>
+                    <label class="field-label" for="name">Full Name / Designation</label>
+                    <input type="text" id="name" class="field-input" required placeholder="e.g. Dr. A. Sharma, Medical Director">
                 </div>
                 <div>
-                    <label class="field-label" for="message">Strategic inquiry or official communication</label>
-                    <textarea id="message" rows="5" required></textarea>
+                    <label class="field-label" for="email">Corporate / Business Email</label>
+                    <input type="email" id="email" class="field-input" required placeholder="name@hospital.com">
                 </div>
-                <button type="submit" class="btn primary-btn">Transmit message</button>
+                <div>
+                    <label class="field-label" for="message">Strategic Inquiry or Official Communication</label>
+                    <textarea id="message" class="field-input" rows="4" required placeholder="Write your message here..."></textarea>
+                </div>
+                <div class="contact-actions">
+                    <button type="submit" class="btn primary-btn">Transmit Message</button>
+                    <a href="https://wa.me/918971893032" target="_blank" rel="noopener" class="btn whatsapp-btn">WhatsApp Business</a>
+                </div>
             </form>
             <div class="pad-footer">
                 <div>
-                    <span class="field-label">Registered office</span>
+                    <span class="field-label">Registered Office</span>
                     <p>Suncure Lifescience Pvt. Ltd., 501 Pragati Corporation, Udhna&nbsp;Pandesara Road, Surat&nbsp;394210, Gujarat, India</p>
                 </div>
                 <div>
-                    <span class="field-label">Direct</span>
-                    <p>+91&nbsp;8971893032 · corporate@suncurelife.com</p>
+                    <span class="field-label">Direct Contact &amp; Web</span>
+                    <p>+91&nbsp;8971893032<br>corporate@suncurelife.com<br><a href="https://www.suncurelife.com" target="_blank" class="link-brand">www.suncurelife.com</a></p>
                 </div>
             </div>
         </div>
@@ -285,7 +341,9 @@
 
     <!-- Footer -->
     <footer>
-        <p>© 2026 Rakesh Kumar Pandey · Official Healthcare Executive Profile</p>
+        <div class="container">
+            <p>© 2026 Rakesh Kumar Pandey · Official Healthcare Executive Profile · <a href="https://www.suncurelife.com" target="_blank" class="link-brand">Suncure Lifescience Pvt. Ltd.</a></p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
